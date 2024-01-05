@@ -77,7 +77,7 @@ interface flatNode {
 })
 
 export class AppComponent {
-  title = 'budgeting';
+  title = 'budget accounts';
   showFiller = false;
   accountsDisplayedColumns: string[] = ['name','adspend', 'dataFee', 'managementDataFee', 'totalSpent', 'budgetLimit', 'action'];
   accountsDataSource = [...BUDGET_DATA];
