@@ -93,8 +93,11 @@ main {
 
 }
 
+mat-drawer-content {
+  margin-right: 0;
+}
+
 .campaign-container {   
-    display: unset;
     height: 100%;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.5);
